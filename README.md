@@ -13,7 +13,13 @@ vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@104.17.70.206:2053?encryption=none&
 vless://a2a396c3-f40e-4dee-bdbb-b1201f12dc1c@104.17.74.206:2053?encryption=none&security=tls&sni=snippet.fgfw.de5.net&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=snippet.fgfw.de5.net&path=%2Fdanfeng%3Fed%3D2560#%F0%9F%87%BA%F0%9F%87%B8US_9%7C2.4MB%2Fs%7CGPT%E2%81%BA%7CYT-US%7CNF%7CD%2B%7CGM%7C5%25
 ```
 
-## 📦 订阅链接集合
+## openlist的比较稳定（每小时都有新的节点）：
+
+```
+https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt
+```
+
+## 📦 我们每4小时自动更新的订阅链接：
 
 ### 1. **通用 Base64 订阅** (适合大部分客户端)
 **订阅链接（每日更新版本、稳定）：**
