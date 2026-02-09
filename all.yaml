@@ -1,292 +1,37 @@
 proxies:
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FCTW_1|4.6MB/s|GPT⁺|YT-TW|NF|GM|0%|sinspired/subs-check"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: HIlpcHfB9-JeQPIlyYAx7wbdg4Y3fKn8Qkx40Ii_KDc
-        short-id: d3eaf7ba052b
-      server: tw3.miyazono-kaori.com
-      servername: www.wistron.com
-      sub_tag: sinspired/subs-check
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s|GPT⁺|YT-GB|NF|10%"
+      name: "\U0001F1E6\U0001F1FAAU_1|2.4MB/s|GPT⁺|YT-US|NF|D+|0%"
       network: tcp
       port: "443"
       reality-opts:
-        public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-        short-id: "20"
-      server: uk2.miyazono-kaori.com
-      servername: www.bp.com
+        public-key: Anr46KtqOMc-YF76WafAAMT-0JBv85RtgSTHRvHxwUg
+        short-id: ""
+      server: xiangtianwennetddd.shop
+      servername: www.xbox.com
       tls: true
       type: vless
       udp: true
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
+      uuid: e4598260-fb5e-4d0a-f0c2-64259f5c38e7
       xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s|GPT|YT-HK|NF|D+"
-      network: ws
-      port: "2096"
-      server: 190.93.244.238
-      servername: sni.jpmj.dev
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.jpmj.dev
-            User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36
-        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1801
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s|GPT⁺|YT-JP|NF|10%"
-      network: ws
-      port: 443
-      server: tokyo01.zgjok.com
-      servername: tokyo01.zgjok.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
-      ws-opts:
-        headers:
-            HOST: tokyo01.zgjok.com
-        path: /
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1172
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s|GPT⁺|YT-FR|NF|1%"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 13.39.127.100
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_2|2.4MB/s|GPT⁺|YT-GB|NF|10%"
-      port: 443
-      reality-opts:
-        public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-        short-id: d923
-      server: uk1.miyazono-kaori.com
-      servername: www.bp.com
-      tls: true
-      type: vless
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s|GPT⁺|YT-GB|NF|10%"
-      port: 443
-      reality-opts:
-        public-key: QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk
-        short-id: "20"
-      server: uk2.miyazono-kaori.com
-      servername: www.bp.com
-      tls: true
-      type: vless
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-    - name: "\U0001F1EC\U0001F1E7GB_4|3.1MB/s|GPT⁺|YT-GB|NF|D+"
-      network: ws
-      port: 2096
-      server: 209.94.90.238
-      servername: sni.jpmj.dev
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.jpmj.dev
-        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - name: "\U0001F1EC\U0001F1E7GB_5|2.5MB/s|GPT|YT-GB|NF|D+|0%"
-      network: ws
-      port: 2096
-      server: 166.62.105.238
-      servername: sni.jpmj.dev
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.jpmj.dev
-        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - name: "\U0001F1EC\U0001F1E7GB_6|3.0MB/s|GPT|YT-GB|NF|D+|5%"
-      network: ws
-      port: 2096
-      server: 130.250.137.238
-      servername: sni.jpmj.dev
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.jpmj.dev
-        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - name: "\U0001F1EC\U0001F1E7GB_7|2.6MB/s|YT-GB|NF|D+|0%"
-      network: ws
-      port: 2096
-      server: 160.79.104.238
-      servername: sni.jpmj.dev
-      tls: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      ws-opts:
-        headers:
-            Host: sni.jpmj.dev
-        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - name: ❓Other_1|3.3MB/s|GPT⁺
-      password: ""
-      port: "1090"
-      server: 121.169.46.116
-      skip-cert-verify: true
-      type: socks5
-      username: ""
-    - cipher: aes-128-gcm
-      name: "\U0001F1EB\U0001F1F7FR_2|2.4MB/s|GPT⁺|YT-FR|NF"
-      password: Hc2yn6UjVCbaPO33TQ93MUtofOLRHm7A
-      port: "18292"
-      server: 195.154.202.112
-      type: ss
-      udp: true
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|7.9MB/s|GPT⁺|YT-SG|NF|GM|48%"
-      network: tcp
-      port: 30845
-      server: v45.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - client-fingerprint: chrome
-      encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EF\U0001F1F5JP_2|3.8MB/s|GPT⁺|YT-JP|NF|GM|sinspired/subs-check"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: DNdTBHyztOVJOBJQX91YXEhNkWbSAntqUoTFBHc6Clw
-        short-id: 6ba85179e30d4fc2
-      server: 47.74.6.60
-      servername: cdn77.api.userway.org
-      sub_tag: sinspired/subs-check
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5c183802-747d-4d2f-a6f1-aff2d5d78401
-      xudp: true
-    - client-fingerprint: edge
       encryption: none
       flow: xtls-rprx-vision
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s|GPT⁺|YT-JP|NF|D+|GM|0%|sinspired/subs-check"
+      name: "\U0001F1E9\U0001F1EADE_1|2.6MB/s|GPT⁺|YT-NL|NF|D+|0%"
       network: tcp
-      port: "443"
+      port: "35999"
       reality-opts:
-        public-key: 5pq9V6oOB3KLz9eylbwpEQQtxShKpgvnzYkkaCs_1GE
-        short-id: ""
-      server: 2.jp.1.cdn-bilibili.cn
-      servername: www.yahoo.co.jp
-      sub_tag: sinspired/subs-check
+        public-key: meY38577F3EMOxO0tv0TkT2VgU7-wYfQr_YB-E82wik
+        short-id: c7a445fe6c
+      server: free2.lulu.autos
+      servername: swdist.apple.com
       tls: true
       type: vless
       udp: true
-      uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-      xudp: true
-    - client-fingerprint: firefox
-      encryption: none
-      name: "\U0001F1EB\U0001F1F7FR_3|2.2MB/s|GPT⁺|YT-US|NF|42%|sinspired/subs-check"
-      network: raw
-      port: "3032"
-      reality-opts:
-        public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
-        short-id: ""
-      server: fr.locations-service.com
-      servername: refersion.com
-      sub_tag: sinspired/subs-check
-      tls: true
-      type: vless
-      udp: true
-      uuid: e59083aa-d933-4952-8cf0-eec74f718705
-      xudp: true
-    - client-fingerprint: safari
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1FCTW_2|3.9MB/s|GPT⁺|YT-TW|NF|GM|0%"
-      network: raw
-      port: "443"
-      reality-opts:
-        public-key: HIlpcHfB9-JeQPIlyYAx7wbdg4Y3fKn8Qkx40Ii_KDc
-        short-id: d3eaf7ba052b
-      server: tw3.miyazono-kaori.com
-      servername: www.wistron.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EC\U0001F1E7GB_8|2.5MB/s|GPT⁺|YT-GB|NF|10%|sinspired/subs-check"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
-        short-id: d923
-      server: uk1.miyazono-kaori.com
-      servername: www.bp.com
-      sub_tag: sinspired/subs-check
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2e82cda5-e020-4c63-8271-e58a00831447
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s|GPT⁺|NF|0%|sinspired/subs-check"
-      network: tcp
-      port: "8505"
-      reality-opts:
-        public-key: 4YXAmgQR1cBQz1opVmeTu-ngrwlcMNCi9Vsx6hQyWUM
-        short-id: 170d9f0e
-      server: 37.114.34.68
-      servername: sourceforge.net
-      sub_tag: sinspired/subs-check
-      tls: true
-      type: vless
-      udp: true
-      uuid: 543b148b-89bb-4cf0-baaf-ebf0389bd629
+      uuid: 8a2f0328-30d7-494a-a9d7-7e5cf921bc6b
       xudp: true
